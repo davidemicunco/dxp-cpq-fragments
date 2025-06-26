@@ -1,0 +1,84 @@
+.titleProduct {
+	//color: #009EE4;
+	color: var(--brand-color-1); 
+}
+.cpq {
+	text-align: center;
+}
+
+.chooseOffer {
+}
+
+.cardList {
+	display: flex;
+}
+
+.bestOffer {
+box-shadow: 0px 0px 30px 0px var(--brand-color-1);
+}
+
+.regularOffer {
+	box-shadow: 0px 0px 30px 0px #00000033;
+}
+
+.offerCard {
+	background-color: white;
+	width: 400px;
+	height: 660px;
+	border: 1px;
+	border: 1px solid var(--brand-color-1);
+	border-radius: 20px;
+	padding: 10px;
+	margin: auto;
+}
+
+.imgThumb {
+	height: 200px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px #000;
+	margin-bottom: 10px;
+}
+
+.subtitle {
+	font-size: 13px;
+	font-weight: lighter;
+}
+
+.centered {
+	text-align: center;
+}
+
+.loghino:after {
+	content: "\00a0";
+}
+
+.lined {
+	color: grey;
+	border-bottom: 1px dashed var(--brand-color-1);
+}
+
+.verifyButton {
+	//background-color: #ff8200;
+	background-color: var(--btn-primary-background-color);
+	border: 0px;
+	padding: 5px;
+	border-radius: 10px;
+	font-weight: bold;
+	color: white;
+	width: 160px;
+	margin: auto;
+}
+
+.verifyButton:hover {
+	background-color: var(--btn-primary-hover-background-color);
+	border: 0px;
+	padding: 5px;
+	border-radius: 10px;
+	color: white;
+}
+
+.specTable {
+	width: 100%;
+	font-size: 16px;
+	text-align: left;
+}
